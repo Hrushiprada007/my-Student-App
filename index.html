@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Information Form</h2>
+    <form action="http://localhost:3000/submit" method="POST">
+        <label for="name">Student Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="roll">Roll Number:</label>
+        <input type="text" name="roll" required><br><br>
+
+        <label for="marks">Marks:</label>
+        <input type="number" name="marks" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <a href="http://localhost:3000/students">View All Students</a>
+</body>
+</html>
